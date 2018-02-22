@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: #E8D39D;
+}
+
+.header {
+    margin: 0;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+    background-image: url("SEO_students.jpg");
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #8D8D8D;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 105px;
+    margin-top: 90px;
+    margin-bottom: auto;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+.textbox {
+
+    font-size: 18px;
+    color: #515151;
+    font-family: 'Montserrat', sans-serif;
+    padding:10%;
+}
+
+button {
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    font-size: 15px;
+
+}
+
+#seoPic {
+   height:100%;
+   float:right;
+}
+
+#grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 3fr 1fr;
+}
